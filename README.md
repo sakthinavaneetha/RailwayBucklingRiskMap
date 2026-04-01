@@ -2,7 +2,7 @@
 
 A machine learning-powered system to **predict and visualize railway track buckling risk** using real-time weather data and geospatial analysis.
 
----
+
 
 ## 🌟 Overview
 
@@ -14,7 +14,7 @@ This project builds an intelligent system that:
 * Visualizes risks on an **interactive map**
 * Supports **route-based analysis for trains**
 
----
+
 
 ## ⚙️ Key Features
 
@@ -66,7 +66,7 @@ This project builds an intelligent system that:
 * Batch ML predictions
 * Fast rendering (~seconds)
 
----
+
 
 ## 🧪 Tech Stack
 
@@ -76,7 +76,7 @@ This project builds an intelligent system that:
 * **XGBoost** (ML Model)
 * **Pandas / NumPy** (Data Processing)
 
----
+
 
 ## 📂 Project Structure
 
@@ -119,7 +119,6 @@ pip install -r requirements.txt
 streamlit run src/streamlit_app.py
 ```
 
----
 
 ## 📊 Model Details
 
@@ -135,7 +134,6 @@ streamlit run src/streamlit_app.py
   * **TMSI score (0–1)**
   * Converted to risk categories
 
----
 
 ## 💡 Key Highlights
 
@@ -145,27 +143,25 @@ streamlit run src/streamlit_app.py
 ✔ Scalable + optimized architecture
 ✔ Clean UI + interactive analytics
 
----
 
-## ⭐ Outcome
+## 👩🏻‍💻 Outcome
 
 ### 🗺️ Dashboard Overview
-![Dashboard](./assets/dashboard.png)
+![Dashboard](assets/dashboard.png)
 
 ### 🚄 Train Route Visualization
-![Route](./assets/route.png)
+![Route](assets/routes.png)
 
 ### ⚠️ Risk Popup
-![Popup](./assets/popup.png)
+![Popup](assets/popup.png)
 
 ### 📊 Risk Analytics Table
-![Table](./assets/table.png)
----
+![Table](assets/table.png)
+
 ## 📌 Future Improvements
 
 * Live railway API integration
 * Real-time alerts system 🚨
 * Deployment (Streamlit Cloud / AWS)
 
----
 
