@@ -150,17 +150,16 @@ streamlit run src/streamlit_app.py
 ## ⭐ Outcome
 
 ### 🗺️ Dashboard Overview
-![Dashboard](assets/dashboard.png)
+![Dashboard](./assets/dashboard.png)
 
 ### 🚄 Train Route Visualization
-![Route](assets/route.png)
+![Route](./assets/route.png)
 
 ### ⚠️ Risk Popup
-![Popup](assets/popup.png)
+![Popup](./assets/popup.png)
 
 ### 📊 Risk Analytics Table
-![Table](assets/table.png)
-
+![Table](./assets/table.png)
 ---
 ## 📌 Future Improvements
 
