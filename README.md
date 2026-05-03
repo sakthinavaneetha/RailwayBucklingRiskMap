@@ -73,25 +73,25 @@ This system enables data-driven decision making, supports early detection of buc
 ### 📊 Dashboard
 
 <p align="center">
-  <img src="assets/dashboard.png" width="750"/>
+  <img src="assests/dashboard.png" width="750"/>
 </p>
 
 ### 🗺️ Railway Routes Visualization
 
 <p align="center">
-  <img src="assets/routes.png" width="750"/>
+  <img src="assests/routes.png" width="750"/>
 </p>
 
 ### 📍 Interactive Popup Insights
 
 <p align="center">
-  <img src="assets/popup.png" width="600"/>
+  <img src="assests/popup.png" width="600"/>
 </p>
 
 ### 📋 Tabular Data View
 
 <p align="center">
-  <img src="assets/table.png" width="750"/>
+  <img src="assests/table.png" width="750"/>
 </p>
 
 ## ⚙️ Technology Stack
@@ -141,7 +141,7 @@ streamlit run streamlit_app.py
 ```id="d1r9m0"
 RailwayBucklingRiskMap/
 │
-├── assets/                
+├── assests/                
 ├── data/                  
 ├── ml_pipeline/           
 ├── streamlit_app.py       
