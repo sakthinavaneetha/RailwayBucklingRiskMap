@@ -73,13 +73,13 @@ This system enables data-driven decision making, supports early detection of buc
 ### 📊 Dashboard
 
 <p align="center">
-  <img src="assests/dashboard.png" width="750"/>
+  <img src="assests/dashboard.png" width="600"/>
 </p>
 
 ### 🗺️ Railway Routes Visualization
 
 <p align="center">
-  <img src="assests/routes.png" width="750"/>
+  <img src="assests/routes.png" width="600"/>
 </p>
 
 ### 📍 Interactive Popup Insights
@@ -91,7 +91,7 @@ This system enables data-driven decision making, supports early detection of buc
 ### 📋 Tabular Data View
 
 <p align="center">
-  <img src="assests/table.png" width="750"/>
+  <img src="assests/table.png" width="600"/>
 </p>
 
 ## ⚙️ Technology Stack
