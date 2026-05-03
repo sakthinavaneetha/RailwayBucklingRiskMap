@@ -1,9 +1,5 @@
 # 🚆 Smart Thermal Stress Detection for Rail Tracks
-
-
-### 🔍 Predicting railway track buckling risk caused by thermal stress using Machine Learning
-
----
+ Predicting railway track buckling risk caused by thermal stress using Machine Learning
 
 ## 📖 Overview
 
