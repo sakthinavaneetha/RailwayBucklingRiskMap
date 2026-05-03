@@ -1,75 +1,165 @@
+# 🚆 Smart Thermal Stress Detection for Rail Tracks
 
-## 🚆 Smart Thermal Stress Detection for Rail Tracks Using XGBoost.
-## 📖 Project Overview
 
-Railway tracks made of continuously welded steel are highly sensitive to **thermal stress** caused by temperature variations. When rails expand due to high temperatures and the expansion is constrained, **compressive stress builds up** within the track structure.
-
-If this stress exceeds safe limits, it can lead to **track buckling**, a dangerous deformation that can cause derailments and major operational failures.
+### 🔍 Predicting railway track buckling risk caused by thermal stress using Machine Learning
 
 ---
+
+## 📖 Overview
+
+Railway tracks made of continuously welded steel are highly sensitive to thermal stress caused by environmental temperature variations. When rails expand due to high temperatures and the expansion is constrained, compressive stress builds up within the track structure.
+
+If this stress exceeds safe limits, it can lead to track buckling, a dangerous deformation that may result in derailments and major operational failures.
+
+This project presents a machine learning-based predictive system that estimates thermal stress levels using environmental and geographical data, enabling early risk detection and preventive maintenance.
 
 ## 🧠 What This Project Does
 
-This project develops a **machine learning-based predictive system** to estimate the **thermal stress levels in railway tracks** and identify sections that are at risk of buckling.
+This system predicts thermal stress levels in railway tracks and identifies sections that are potentially at risk of buckling.
 
-Instead of relying only on manual inspection or static thresholds, the system learns patterns from historical data and predicts stress conditions dynamically.
+Instead of relying on manual inspection or fixed thresholds, the model:
 
----
+* Learns patterns from historical data
+* Predicts stress conditions dynamically
+* Helps detect risks before physical failure occurs
 
 ## ⚙️ How It Works (Core Logic)
 
-The system uses environmental and track-related parameters such as:
+The system uses multiple input parameters such as:
 
 * Temperature
 * Geographic conditions
 * Track characteristics
-* Historical stress behavior
+* Historical stress patterns
 
-These inputs are processed and fed into an **XGBoost Regression model**, which:
+These features are processed and passed into an XGBoost Regression model, which captures non-linear relationships between temperature and stress, handles complex feature interactions, and produces accurate stress predictions.
 
-* Captures **non-linear relationships** between temperature and stress
-* Handles complex feature interactions
-* Provides accurate stress estimation
-
-The model outputs a **predicted thermal stress value**, which can be used to:
-
-* Identify high-risk zones
-* Support preventive maintenance decisions
-* Reduce chances of track failure
-
----
+The output is a predicted thermal stress value, which can be used to identify high-risk zones, support preventive maintenance, and reduce the likelihood of track failure.
 
 ## 🤖 Why XGBoost?
 
-XGBoost is used because it:
-
-* Performs well on structured/tabular data
-* Handles non-linear patterns effectively
-* Is robust to noise and feature variations
-* Provides high prediction accuracy compared to basic regression models
-
----
+XGBoost is chosen because it performs well on structured data, handles non-linear relationships effectively, is robust to noise and feature variations, and provides higher accuracy than traditional regression models.
 
 ## 🚨 Why This Matters
 
-Traditional railway monitoring systems:
+Traditional railway monitoring systems depend heavily on manual inspection, use fixed safety thresholds, and may fail to detect early warning signs.
 
-* Depend on manual inspection
-* Use fixed thresholds
-* May miss early warning signs
+This system enables data-driven decision making, supports early detection of buckling conditions, and helps reduce accidents and maintenance costs.
 
-This system:
+## 🎯 Objectives
 
-* Enables **data-driven risk prediction**
-* Supports **early detection of buckling conditions**
-* Helps in **reducing accidents and maintenance costs**
+* Analyze climate and railway-related data
+* Build a regression model for thermal stress prediction
+* Evaluate performance using standard metrics
+* Develop a scalable and cost-effective solution
 
----
+## 🧠 Machine Learning Approach
 
-## 🎯 End Goal
+* Problem Type: Regression
+* Algorithm: XGBoost Regressor
+* Learning Type: Supervised Learning
 
-To build an intelligent system that can:
+## 🔄 Workflow
 
-* Predict thermal stress in real-time scenarios
-* Highlight potential buckling zones
-* Assist railway authorities in proactive decision-making
+1. Data Collection
+2. Data Preprocessing
+3. Feature Engineering
+4. Model Training
+5. Model Evaluation
+6. Thermal Stress Prediction
+
+## 🖥️ Application Preview
+
+### 📊 Dashboard
+
+<p align="center">
+  <img src="assets/dashboard.png" width="750"/>
+</p>
+
+### 🗺️ Railway Routes Visualization
+
+<p align="center">
+  <img src="assets/routes.png" width="750"/>
+</p>
+
+### 📍 Interactive Popup Insights
+
+<p align="center">
+  <img src="assets/popup.png" width="600"/>
+</p>
+
+### 📋 Tabular Data View
+
+<p align="center">
+  <img src="assets/table.png" width="750"/>
+</p>
+
+## ⚙️ Technology Stack
+
+* Python
+* Pandas, NumPy
+* Scikit-learn
+* XGBoost
+* Matplotlib
+* Streamlit
+
+## 🚀 Installation & Setup
+
+### 1️⃣ Clone Repository
+
+```bash id="9n5d6h"
+git clone https://github.com/sakthinavaneetha/RailwayBucklingRiskMap.git
+cd RailwayBucklingRiskMap
+```
+
+### 2️⃣ Create Virtual Environment
+
+```bash id="k2v4rm"
+python -m venv venv
+```
+
+### 3️⃣ Activate Environment (Windows)
+
+```bash id="2z8qje"
+venv\Scripts\activate
+```
+
+### 4️⃣ Install Dependencies
+
+```bash id="8x5h2v"
+pip install -r requirements.txt
+```
+
+### 5️⃣ Run Application
+
+```bash id="4v3pqe"
+streamlit run streamlit_app.py
+```
+
+## 📁 Project Structure
+
+```id="d1r9m0"
+RailwayBucklingRiskMap/
+│
+├── assets/                
+├── data/                  
+├── ml_pipeline/           
+├── streamlit_app.py       
+├── weather_service.py     
+├── requirements.txt
+```
+
+## 📊 Model Details
+
+* Model Type: Regression
+* Algorithm: XGBoost
+* Output: Thermal stress value
+* Use Case: Early detection of track buckling risk
+
+## 🚀 Applications
+
+* Railway safety monitoring
+* Predictive maintenance
+* Infrastructure risk assessment
+* Intelligent transportation systems
+
